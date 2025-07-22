@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Load the model
-model = load_model("Chaneie/YourNailAI/mobilenetv2_bestmodel2.h5")
+model = load_model("Chaneie/YourNailAI/main/mobilenetv2_bestmodel2.h5")
 
 # Define classes and threshold for "Unknown" detection
 class_names = ["Onychomycosis", "Psoriasis", "Unknown"]
